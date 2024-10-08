@@ -1,0 +1,192 @@
+.card{
+    padding:14px 12px 12px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 370px;
+    min-width: 320px;
+    border-radius: 7.46px;
+    border: 0.93px solid rgb(224, 224, 224);
+    background: rgb(255, 255, 255);
+    padding: 20px 16px 16px;
+    box-shadow: rgb(224, 224, 224) 0px 1px 8px 0px;
+}
+
+.card_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_title_text{
+    margin: 0px;
+    font-family: Inter;
+    line-height: 1.5;
+    font-size: 18px;
+    color: rgb(38, 50, 56);
+    font-weight: 600;
+}
+.distance_icon_container{
+    display: flex;
+    width:44px;
+    height:44px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 6px;
+    background: #F9F9F9;
+    border: 0.47px solid #EEE7E7
+}
+.image_container{
+    display: flex;
+    margin-top: 22px;
+    position:relative;
+    overflow: hidden;
+  border-radius: 5px;
+  position: relative;
+ height:202px;
+}
+.card_image{
+    object-fit: cover;
+    width:100%;
+}
+
+.button_container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 22px;
+gap:12px;
+}
+
+.day_pass_btn{
+    background: #F9F9F9;
+    padding:8px 8px 7px;
+    border: 0.5px solid #E5DDDD;
+    border-radius: 5px;
+    width:48%;
+    height:66px;
+    position: relative;
+    box-sizing: border-box;
+}
+.bulk_pass_btn{
+    box-sizing: border-box;
+    background: #FFCF4B;
+    border-radius: 5px;
+    border: 1px solid #FFC422;
+    padding:9px 8px 8px 10px;
+    box-shadow: rgb(224, 224, 224) 0px 2px 4px 0px;
+    height:66px;
+    width:48%;
+    position: relative;
+    /* display: flex;
+    justify-content: center; */
+    cursor: pointer;
+    animation: light-pass 1.5s linear infinite;
+
+}
+ 
+
+
+
+.forward_icon{
+    position: absolute;
+    top:50%;
+    right:8px;
+    transform: translate(-50%);
+}
+
+.day_pass_btn_text ,.bulk_pass_btn_text{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+.btn_text{
+    margin: 0px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14.52px;
+    text-align: left;
+    color: rgb(101, 98, 76);
+    @media (max-width:900px){
+        font-size: 12px;
+    }
+
+}
+
+.bold{
+    font-size: 18px;
+    font-weight: 600;
+    color: #263238;
+}
+
+.brown_text{
+    color: #514D2D;
+    /* font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: left; */
+    
+}
+
+.discount{
+    background: #263238;
+    position: absolute;
+    top:-10px;
+    border: 1px solid #263238;
+    right: 30%;
+    padding:4px 8px;
+    border-radius: 3px;
+}
+
+.discount_text{
+    font-family: Inter;
+font-size: 8px;
+font-weight: 500;
+line-height: 9.68px;
+text-align: left;
+color: #FFFDF7;
+
+}
+
+.card_badge{
+    background: linear-gradient(100.27deg, #263238 22.66%, #2F4B59 67.67%);
+    height:32px;
+    display: flex;
+    position: absolute;
+    top:8px;
+    left:8px;
+    align-items: center;
+    gap: 8px;
+    border: 0.5px solid #FFBB0080;
+    border-radius: 5px;
+    padding:7.5px 8px ;
+    box-sizing: border-box;
+
+    @media (max-width:900px){
+        height:32px;
+        padding:7px 10px;
+    }
+}
+
+.badge_text{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 16.94px;
+letter-spacing: 2px;
+text-align: left;
+color: #FFBB00;
+
+@media (max-width:900px){
+    font-size: 12px;
+    line-height: 14.52px;
+    letter-spacing: 1.8px;    
+}
+}

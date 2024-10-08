@@ -1,0 +1,16 @@
+.feature-card-style{
+    box-sizing: border-box;
+}
+
+.feature-image{
+    width:2rem;
+}
+.feature-text{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.78px;
+text-align: left;
+color: #263238;
+}
+
