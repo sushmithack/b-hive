@@ -7,7 +7,6 @@ import { RootState } from "../../store";
 
 const SpaceList: React.FC = () => {
   const spaceList = useSelector((state: RootState) => state.space.spaces);
-  console.log("spaceList", spaceList);
   return (
     <>
       <p className="card_list_title">{STRINGS?.CARD_LIST?.TITLE}</p>
