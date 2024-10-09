@@ -1,9 +1,7 @@
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   box-sizing: border-box;
-  background-color:#F9F9F9;
-  width:100vw;
+  background-color: #f9f9f9;
+  width: 100vw;
+  scroll-behavior: smooth;
 }
-
-
-

@@ -1,5 +1,3 @@
-// src/types/index.ts
-
  interface DayPassDiscount {
     value: number;
     message: string;

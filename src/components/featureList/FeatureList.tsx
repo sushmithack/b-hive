@@ -13,8 +13,8 @@ const FeatureList: React.FC = () => {
       text: "affordable",
     },
     {
-      imageName: "/icons/comfortableIcon.svg",
-      text: "Comfortable",
+      imageName: "/icons/CommunityIcon.svg",
+      text: "Community Events",
     },
     {
       imageName: "/icons/comfortableIcon.svg",
@@ -35,13 +35,8 @@ const FeatureList: React.FC = () => {
     { imageName: "/icons/sportsIcon.svg", text: "Sports Area" },
   ];
 
-  //   const returnFeatureCard = () => {
-
-  //   };
-
   return (
     <>
-      {/* // <div className="feature_container"> */}
       <p className="text">{"Why Choose us?"}</p>
       <div className="featureList_container">
         {features.map((feature, index) => {
@@ -55,7 +50,6 @@ const FeatureList: React.FC = () => {
           );
         })}
       </div>
-      {/* </div> */}
     </>
   );
 };

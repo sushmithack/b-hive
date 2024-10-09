@@ -6,12 +6,12 @@ const Title: React.FC = () => {
     <>
       <div className="title_container">
         <p className="title_text">
-          {"Host your meeting with world-class amenities. Starting at"}
-          <span className={`title_text color_text`}>{"₹199/-"}</span>
+          {"Host your meeting with world-class amenities. Starting at "}
+          <span className={` color_text`}>{"₹199/-"}</span>
         </p>
       </div>
       <p className="title_text_mobile">
-        {"Host your meeting with world-class amenities. Starting at"}
+        {"Host your meeting with world-class amenities. Starting at "}
         <span className={`title_text_mobile color_text`}>{"₹199/-"}</span>
       </p>
     </>

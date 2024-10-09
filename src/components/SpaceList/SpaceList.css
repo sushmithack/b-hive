@@ -1,23 +1,29 @@
-.card_list_title{
-    font-family: Inter;
-    line-height: 1.5;
-    margin: 120px 0px 40px;
-    font-size: 36px;
+.card_list_title {
+  font-family: Inter;
+  line-height: 1.5;
+  margin: 120px 0px 40px;
+  font-size: 36px;
+  font-weight: 700;
+  color: rgb(38, 50, 56);
+
+  @media (max-width: 900px) {
+    margin: 10px 0px 10px;
+    font-size: 24px;
     font-weight: 700;
-    color: rgb(38, 50, 56);
-    
-    @media (max-width:1440px){
-        text-align: center;
-    }
+  }
+  @media (max-width: 320px) {
+    font-size: 20px;
+    font-weight: 600;
+  }
 }
-.card-list_container{
-    width:100%;
-    display:flex;
-    justify-content: center;
-    margin:auto;
-    flex-flow: wrap;
-    gap:45px;
-    @media (max-width:900px){
-        gap:1rem;
-    }
+.card-list_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-flow: wrap;
+  gap: 45px;
+  @media (max-width: 900px) {
+    gap: 1rem;
+  }
 }

@@ -1,16 +1,24 @@
-.feature-card-style{
-    box-sizing: border-box;
+.feature-card-style {
+  box-sizing: border-box;
 }
 
-.feature-image{
-    width:2rem;
+.feature-image {
+  width: 2rem;
 }
-.feature-text{
-    font-family: Inter;
-font-size: 18px;
-font-weight: 500;
-line-height: 21.78px;
-text-align: left;
-color: #263238;
-}
+.feature-text {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+  text-align: left;
+  color: #263238;
 
+  @media (max-width: 900px) {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  @media (max-width: 320px) {
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
