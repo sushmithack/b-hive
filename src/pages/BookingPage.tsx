@@ -42,7 +42,7 @@ const BookingPage: React.FC = () => {
       return (
         <div>
           <>
-            <Skeleton width={"100vw"} height={90}></Skeleton>
+            <Skeleton width={"100%"} height={90}></Skeleton>
           </>
           <div className="main_content_container">
             <p className="title_text">
